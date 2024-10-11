@@ -4,12 +4,374 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rep/Problemas</title>
+    <link rel="icon" type="image/x-icon" href="./img/helpingsafe.png">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-    
-    
+<body class="bgcolor baloo-paaji-2-everything">
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #0f0f0f;" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Reparação Rápida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="problems.html">Problemas</a>
+          <a class="nav-link" href="cables.html">Cabos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/displento.jpeg" class="card-img-top" alt="dispositivos lentos">
+          <div class="card-body">
+            <h5 class="card-title">Dispositivos Lentos</h5>
+            <p class="card-text">Se seu problema é a lentidão do seu dispotivos:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalDisp" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalDisp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Dispositivos Lentos: Reiniciar Dispotivo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Reiniciar Celular:</p>
+                        Pressione e segure o botão de ligar/desligar (geralmente na lateral).
+                        Quando aparecer o menu, toque em "Reiniciar" ou "Desligar".
+                        Se optar por desligar, aguarde alguns segundos e pressione o botão de ligar novamente para ligar o celular.
+                        <p></p>
+                        <p>Reiniciar Tablet:</p>
+
+                        Pressione e segure o botão de ligar/desligar.
+                        Selecione "Reiniciar" ou "Desligar" no menu.
+                        Aguarde alguns segundos e pressione o botão de ligar novamente.
+                        <p></p>
+                        <p>Reiniciar Computador:</p>
+
+                        Clique no botão "Iniciar" (ícone do Windows).
+                        Selecione "Desligar" e depois "Reiniciar".
+                        Aguarde enquanto o computador reinicia.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/internetinstav.jpeg" class="card-img-top" alt="internet instavel">
+          <div class="card-body">
+            <h5 class="card-title">Conexao de Internet Instavel</h5>
+            <p class="card-text">Se seu problema é a internet instavel:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalInter" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalInter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Conexao Instavel: Reiniciar Internet</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Reiniciar Roteador:</p>
+                        Desconecte o cabo de energia do roteador.
+                        Aguarde cerca de 10 segundos.
+                        Conecte o cabo de energia novamente e aguarde o roteador reiniciar (normalmente leva alguns minutos).
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/bateriaruim.jpeg" class="card-img-top" alt="problemas de bateria">
+          <div class="card-body">
+            <h5 class="card-title">Problemas de bateria</h5>
+            <p class="card-text">Se seu problema é relacionado a baterias:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalBat" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalBat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Problemas de Bateria: Verificar Bateria</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Verifica Bateria no Celular:</p>
+                        Acesse "Configurações".
+                        Toque em "Bateria".
+                        Veja quais aplicativos estão consumindo 
+                        mais bateria e considere fechá-los ou desinstalá-los.
+                        <p></p>
+                        <p>Verificar Bateria no Computador:</p>
+
+                        Clique com o botão direito no ícone da bateria na barra de tarefas.
+                        Selecione "Configurações de energia".
+                        Veja os aplicativos que estão utilizando mais energia.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/telatravada.jpeg" class="card-img-top" alt="tela travada">
+          <div class="card-body">
+            <h5 class="card-title">Tela travada ou congelada</h5>
+            <p class="card-text">Se seu problema é a tela congelada:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalTela" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalTela" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Tela Travada: Reiniciar Dispotivo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Reiniciar Celular ou Tablet:</p>
+                        Pressione e segure o botão de ligar/desligar.
+                        Se o dispositivo não responder, mantenha pressionado o botão por 10 segundos até que ele desligue.
+                        Pressione o botão de ligar para reiniciar.
+                        <p></p>
+                        <p>Reiniciar Computador:</p>
+
+                        Se o mouse não responder, pressione as teclas "Ctrl + Alt + Del" ao mesmo tempo.
+                        Se não funcionar, mantenha pressionado o botão de ligar/desligar por 10 segundos para desligá-lo e ligá-lo novamente.
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/appabre.jpeg" class="card-img-top" alt="aplicativos nao abrem">
+          <div class="card-body">
+            <h5 class="card-title">Aplicativos que não abrem</h5>
+            <p class="card-text">Se seu problema são os aplicativos que não abrem:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalApp" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Aplicativos nao abrem: Reiniciar Aplicativo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Reiniciar Aplicativo no Celular:</p>
+                        Acesse a tela de aplicativos.
+                        Toque e segure o aplicativo que não abre.
+                        Selecione "Forçar Parada" e, em seguida, toque no ícone do aplicativo para abri-lo novamente.
+                        <p></p>
+                        <p>Reiniciar Aplicativo no Computador:</p>
+                        Clique com o botão direito no ícone do aplicativo na barra de tarefas.
+                        Selecione "Fechar janela" e tente abrir o aplicativo novamente.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/barulhoruim.jpeg" class="card-img-top" alt="audio ruim">
+          <div class="card-body">
+            <h5 class="card-title">Barulho ou falha no áudio</h5>
+            <p class="card-text">Se seu problema é a falha no áudio:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalAudio" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalAudio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Falha no Audio: Verificar Configurações de Audio</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Verificar Áudio no Celular:</p>
+                        Acesse "Configurações".
+                        Toque em "Sons e vibrações".
+                        Verifique se o volume está alto e se não está em modo silencioso.
+                        <p></p>
+                        <p>Verificar Áudio no Computador:</p>
+                        Clique no ícone de volume na barra de tarefas.
+                        Verifique se o volume está alto e se o dispositivo de saída correto está selecionado.
+                        Clique com o botão direito no ícone e selecione "Sons" para ajustar configurações.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/problemacarregamento.jpeg" class="card-img-top" alt="problema carregamento">
+          <div class="card-body">
+            <h5 class="card-title">Problemas de carregamento</h5>
+            <p class="card-text">Se seu problema é com o carregamento:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCarr" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalCarr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Problemas de Carregamento: Verificar Carregador e Cabo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Verificar Carregamento no Celular:</p>
+                        Verifique se o cabo está bem conectado ao celular e ao carregador.
+                        Teste com outro cabo ou carregador se possível.
+                        Limpe a porta de carregamento com cuidado para remover sujeira.                        <p></p>
+                        <p>Verificar Carregamento no Notebook:</p>
+
+                        Verifique se o carregador está conectado corretamente à tomada e ao computador.
+                        Teste outra tomada ou use um carregador diferente, se disponível.                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/problemabluetoth.jpeg" class="card-img-top" alt="conexao bluetooth">
+          <div class="card-body">
+            <h5 class="card-title">Dificuldades de conectividade bluetooth</h5>
+            <p class="card-text">Se seu problema é com o bluetooth:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalBluet" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalBluet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Conectividade Bluetooth: Reiniciar Bluetooth</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Reiniciar Bluetooth no Celular:</p>
+                        Acesse "Configurações".
+                        Toque em "Bluetooth".
+                        Desative o Bluetooth e, em seguida, ative-o novamente. Tente reconectar o dispositivo.
+                        <p></p>
+                        <p>Reiniciar Bluetooth no Computador:</p>
+                        Clique no ícone do Bluetooth na barra de tarefas.
+                        Desative e ative novamente o Bluetooth.
+                        Tente conectar o dispositivo novamente.
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/impressaoruim.jpeg" class="card-img-top" alt="impressao com falhas">
+          <div class="card-body">
+            <h5 class="card-title">Impressão com falhas</h5>
+            <p class="card-text">Se seu problema é com falhas na impressão:</p>
+          </div>
+          <div class="mb-4 d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalImpr" type="button">Clique Aqui!</button>
+            <div class="modal fade" id="modalImpr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Impressão com Falhas: Verificar Impressora</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Verificar Impressão no Computador:</p>
+                        Acesse "Painel de Controle" e clique em "Dispositivos e Impressoras".
+                        Clique com o botão direito na impressora e selecione "Ver o que está sendo impresso".
+                        Cancelar qualquer impressão que pareça travada e reinicie a impressora.
+                        <p></p>
+                        <p>Verificar Impressão no Celular:</p>
+                        Abra o aplicativo de impressão que você usa.
+                        Verifique se a impressora está conectada ao mesmo Wi-Fi que o celular.
+                        Tente enviar o documento novamente.
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

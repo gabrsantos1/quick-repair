@@ -1,5 +1,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -28,16 +34,63 @@ img{
 }
 
 .bgcolor{
-    background-color: rgb(234, 237, 240);
+    background-color: #1C1C1C  ;
 }
 
 .bgcolor2{
-    outline: rgb(205, 209, 212) solid .5px;
-    background-color: rgb(222, 226, 231);
+    outline: rgb(187, 184, 184) solid .5px;
+    background-color: #C2C2C2;
     border-radius: 25px;
+    box-shadow: rgba(190, 187, 187, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .outlinebuttons{
     outline: rgb(199, 203, 206) solid 1px;
 }
 
+.card-img-top{
+    border-radius: 25px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px; 
+}
+
+.nvtam{
+    height: 70px;
+}
+
+
+/* fontes 
+    <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 400 to 800 */
+
+.baloo-paaji-2-everything {
+  font-family: "Baloo Paaji 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.baloo-paaji-2-nav {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.fontcarousel{
+    color: black;
+}
+
+.shadowcarousel{
+    box-shadow: rgba(223, 222, 222, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
