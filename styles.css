@@ -1,0 +1,43 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-block {
+    display: block !important;
+}
+
+img{
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.outline{
+    outline: black solid 3px;
+}
+
+.centercover{
+    margin-top: 50%;
+}
+
+.bgcolor{
+    background-color: rgb(234, 237, 240);
+}
+
+.bgcolor2{
+    outline: rgb(205, 209, 212) solid .5px;
+    background-color: rgb(222, 226, 231);
+    border-radius: 25px;
+}
+
+.outlinebuttons{
+    outline: rgb(199, 203, 206) solid 1px;
+}
+
